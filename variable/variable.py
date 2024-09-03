@@ -59,6 +59,8 @@ print(x)   # print here ' x ' value
 
 # x = "awesome"
 
+# Global variables
+
 def myfunc():
   global x
   x = "fantastic"
