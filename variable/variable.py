@@ -40,24 +40,24 @@ my_name = 'Rimsha'
 
 #Many values to multiple variable
 
-x,y,z = 'rimsha','alina','faiza'
+# x,y,z = 'rimsha','alina','faiza'
 
 
 # One value to multiple variable
 
-x = y = z = 'rimsha'
+ # x = y = z = 'rimsha'
 
 
 #Output variable
 
-x = "My country name is Pakistan"
+# x = "My country name is Pakistan"
 print(x)   # print here ' x ' value
 
 # Global variable
 
 #Global variables can be used by everyone, both inside of functions and outside.
 
-x = "awesome"
+# x = "awesome"
 
 def myfunc():
   global x
@@ -65,5 +65,5 @@ def myfunc():
 
 myfunc()
 
-print("Python is " + x)        
-print("Python is " + x)            # 'x' is a global variable 
+#print("Python is " + x)        
+#print("Python is " + x)            # 'x' is a global variable 
