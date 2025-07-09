@@ -31,12 +31,18 @@ A variable name cannot start with a number
 A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 Variable names are case-sensitive (age, Age and AGE are three different variables)
 A variable name cannot be any of the Python keywords.'''
+#docstring
+paragraph = """A variable must start with  a letter or with an underscore character.
+A variable name cannot start with a number."""
+print(paragraph)
+#Variable Naming Conventions
+#There are several ways to name variables in Python, and the most common conventions are:
 
-#Came Case
+1.#Came Case
 myName = 'Rimsha'
-#PascalCase
+2.#PascalCase
 MyName = 'Rimsha'
-#Snake Case
+3.#Snake Case
 my_name = 'Rimsha'
 
 #Many values to multiple variable
@@ -61,6 +67,12 @@ print(x)   # print here ' x ' value
 # x = "awesome"
 
 # Global variables
+#ASSIGNMENT OF  VARAIABLE 'F' STRING AND DOCSTRING
+fName = "Bilal"
+print(f'''Hi,{fName}
+you ot a free coupon code
+Best Regards,
+Rimsha''') 
 
 def myfunc():
   global x
@@ -70,3 +82,4 @@ myfunc()
 
 #print("Python is " + x)        
 #print("Python is " + x)            # 'x' is a global variable 
+ 
