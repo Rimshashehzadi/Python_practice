@@ -14,15 +14,16 @@ Comments can be used to prevent execution when testing code.'''
 x = 5
 y = 'Rimsha'
 print(x)
-print(y)
+print("My name is",y)    #concatination use for printing multiple values
 
 #Casting
 x = int(4)
 y = str('Rimsha')
 z=  float(4)
-print(x)
+print(type(x))  #type() is the build in function of python that tells the type of variable
+print(type(y))
 print(y)
-print(z)
+print(f"The value of z is {z} the type of z is {type(z)}")  #f-string is used for formatting strings in python
 
 '''A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
 A variable name must start with a letter or the underscore character
