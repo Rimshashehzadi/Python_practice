@@ -1,3 +1,8 @@
+is_raising = True
+is_lighting = False
+print(is_raising)
+print(type(is_lighting))
+
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)

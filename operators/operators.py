@@ -34,3 +34,19 @@ print("Modulus:", result)
 #Exponentiation  # The exponentiation operator raises a number to the power of another number.
 result = num1 ** num2
 print("Exponentiation:", result)
+
+#Assignment of Rabri
+faculty_member = 12
+staff_member = 4
+student_member = 100
+absent_people = 15
+per_person_rabri = 250
+tottal_people = faculty_member + staff_member + student_member - absent_people
+print("Total People in Rabri:", {tottal_people})
+#Total Rabri
+total_rabri = tottal_people * per_person_rabri
+print("Total Rabri:", {total_rabri})
+#Rabri in kilogram
+rabri_in_kg = total_rabri // 1000
+print("Rabri in Kilogram:", {rabri_in_kg})
+
